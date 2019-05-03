@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Proj05 2019 Padraig Condon</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <!-- Tab Strings -->
+    <string name="ui_tabname_home">HOME</string>
+    <string name="ui_tabname_gallery">GALLERY</string>
+    <string name="ui_tabname_products">PRODUCTS</string>
+    <string name="ui_tabname_customers">CUSTOMERS</string>
+    <string name="ui_tabname_stocks">STOCKS</string>
+    <string name="ui_tabname_currencies">CURRENCIES</string>
+    <string name="ui_tabname_party">QUOTATIONS</string>
+    <string name="ui_tabname_send">SEND</string>
+
+
+    <!-- Menu Strings -->
+    <string name="ui_menu_search">search</string>
+    <string name="ui_menu_send">send</string>
+    <string name="ui_menu_add">add</string>
+    <string name="ui_menu_quit">quit</string>
+    <string name="ui_menu_feedback">feedback</string>
+    <string name="ui_menu_about">about</string>
+    <string name="ui_menu_share">share</string>
+    <string name="PressMe">Press me</string>
+
+    <string name="calculate">Calculate</string>
+    <string name="eur">EUR:</string>
+    <string name="eur_to_xxx">EUR to XXX</string>
+    <string name="xxx">XXX:</string>
+
+    <string-array name="tables">
+        <item>"select products"</item>
+        <item>"select customers"</item>
+        <item>"select accounts"</item>
+        <item>"select quotations"</item>
+        <item>"select orders"</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_Send">Send</string>
+    <string name="emailquote">Send/EmailQuote</string>
+    <string name="to_email">my-quote@sda.ie</string>
+    <string name="email_subject">Quotation </string>
+    <string name="email_sent">Email Sending</string>
+    <string name="wood_based_panels">WOOD BASED PANELS </string>
+    <string name="get_a_quote_now">CHECK PRODUCTS AND GET A QUOTE</string>
+    <string name="quotation_app">QUOTATION APP</string>
+    <string name="thickness">Thickness</string>
+    <string name="moq">Moq</string>
+    <string name="m2tariff">M2Tariff</string>
+    <string name="description">Description</string>
+    <string name="jpegimageid">JpegimageId</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="delete">Delete</string>
+    <string name="select_customers">Select Customer</string>
+    <string name="currency">Currency</string>
+    <string name="show_customers">Show Customers</string>
+    <string name="create_customer">Create Customer</string>
+    <string name="productId">productId</string>
+    <string name="prices_exclusive_of_vat">(prices exclusive of VAT)</string>
+    <string name="discount">Discount%</string>
+    <string name="custno">CustNo</string>
+    <string name="custname">CustName</string>
+    <string name="county">County</string>
+    <string name="country">Country</string>
+    <string name="phoneno">PhoneNo</string>
+    <string name="email">Email</string>
+    <string name="productcode">ProductCode</string>
+    <string name="grade">Grade</string>
+    <string name="classs">Class</string>
+    <string name="town">Town</string>
+    <string name="custom_toast">custom toast.</string>
+    <string name="use_currency_in_quote">use currency in quote</string>
+    <string name="rate_1_xxxx">[ Rate 1 : xxxx ]</string>
+    <string name="quotation_sheet_size_2440x1220">Quotation: Sheet size 2440x1220</string>
+    <string name="cur">CUR:</string>
+    <string name="_1_0000">1.0000</string>
+    <string name="create_product">Create Product</string>
+    <string name="show_products">Show Products</string>
+    <string name="quote_date">Quote Date :</string>
+    <string name="customer">Customer :</string>
+    <string name="delivery">Delivery:</string>
+    <string name="back">BACK</string>
+    <string name="send">SEND</string>
+    <string name="contactperson">ContactPerson</string>
+    <string name="customer_no">Customer No:</string>
+    <string name="rates">rates</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="create_quote">create quote</string>
+    <string name="classz">Class.:</string>
+    <string name="Graade">Grade:</string>
+    <string name="coode">Code:</string>
+    <string name="m2tarifff">m2Tariff:€</string>
+    <string name="moquantity">MOQ :</string>
+    <string name="minorderqualntity">MOQ :</string>
+    <string name="m2price">m2Price:</string>
+    <string name="code">Code:</string>
+    <string name="graade">Grade:</string>
+    <string name="claass">Claass:</string>
+</resources>

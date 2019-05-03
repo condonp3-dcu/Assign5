@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:paddingTop="20dp"
+    tools:context="sda.oscail.edu.proj05_2019_p_condontemp.HomeFragment">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:paddingStart="0dp"
+        android:text="@string/quotation_app"
+        android:textAlignment="center"
+        android:textColor="#0A0107"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90sp"
+        android:paddingStart="10sp"
+        android:text="@string/wood_based_panels"
+        android:textAlignment="center"
+        android:textColor="#BFB9BD"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:paddingStart="10sp"
+        android:paddingEnd="10sp"
+        android:text="@string/get_a_quote_now"
+        android:textAlignment="center"
+        android:textColor="#BFB9BD"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170sp"
+        android:paddingStart="10sp"
+        android:paddingEnd="10sp"
+        android:text="@string/prices_exclusive_of_vat"
+        android:textAlignment="center"
+        android:textColor="#BFB9BD"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="260sp"
+        android:src="@drawable/woodbackground"
+        android:contentDescription="@string/wood_based_panels" />
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+

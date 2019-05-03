@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="sda.oscail.edu.proj05_2019_p_condontemp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <activity
+            android:name="sda.oscail.edu.proj05_2019_p_condontemp.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="sda.oscail.edu.proj05_2019_p_condontemp.ProductDetail"
+            android:label="Project05 2019 Padraig Condon"/>
+        <activity android:name="sda.oscail.edu.proj05_2019_p_condontemp.CustomerDetail"
+            android:label="Project05 2019 Padraig Condon"/>
+
+        <activity android:name="sda.oscail.edu.proj05_2019_p_condontemp.ConvertActivity"
+            android:label="Project05 2019 Padraig Condon"/>
+        <activity android:name=".ViewQuote"></activity>
+
+    </application>
+
+</manifest>

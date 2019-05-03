@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sda.oscail.edu.proj05_2019_p_condontemp.ConvertActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:gravity="center"
+        android:text="@string/eur_to_xxx"
+        android:textColor="#07b530"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvSubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:gravity="center"
+        android:text="@string/rate_1_xxxx"
+        android:textColor="#f7073f"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:text="@string/eur"
+            android:textColor="#07b530"
+            android:textSize="12sp" />
+
+        <EditText
+            android:textSize="12sp"
+            android:textColor="#07b530"
+            android:id="@+id/etInput"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvOutputName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:text="@string/xxx"
+            android:textColor="#07b530"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:textSize="12sp"
+            android:textColor="#07b530"
+            android:id="@+id/tvOutputRate"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="12sp"
+            android:height="25sp"
+            android:background="#1e90ff"
+            android:text="@string/calculate"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnUseCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80sp"
+            android:layout_marginTop="12dp"
+            android:height="25sp"
+            android:background="#1e90ff"
+            android:text="@string/use_currency_in_quote"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1sp"
+        android:background="#a40404" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+
+</LinearLayout>

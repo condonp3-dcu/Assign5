@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pb"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.9"
+            android:src="@drawable/particleboard"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/classstitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="1dip"
+            android:paddingEnd="1dip"
+            android:paddingTop="6dip"
+            android:text="@string/claass"
+            android:textAlignment="viewEnd"
+            android:textColor="#770c7f"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/classs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:paddingStart="6dip"
+            android:paddingEnd="3dip"
+            android:paddingTop="6dip"
+            android:textAlignment="viewStart"
+            android:textColor="#db17e9"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gradetitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="6dip"
+            android:paddingEnd="3dip"
+            android:paddingTop="6dip"
+            android:text="@string/graade"
+            android:textAlignment="viewEnd"
+            android:textColor="#770c7f"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.505"
+            android:paddingStart="6dip"
+            android:paddingEnd="3dip"
+            android:paddingTop="6dip"
+            android:textAlignment="viewStart"
+            android:textColor="#db17e9"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingEnd="4dip">
+
+        <TextView
+            android:id="@+id/product_Id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/productCodeTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="1dip"
+            android:paddingEnd="1dip"
+            android:paddingTop="6dip"
+            android:text="@string/code"
+            android:textAlignment="viewStart"
+            android:textColor="#0d2bc4"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/productCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:paddingStart="1dip"
+            android:paddingEnd="1dip"
+            android:paddingTop="6dip"
+            android:textAlignment="viewStart"
+            android:textColor="#021a92"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/M2Tarriffname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:paddingStart="1dip"
+            android:paddingEnd="1dip"
+            android:paddingTop="6dip"
+            android:text="@string/m2price"
+            android:textAlignment="viewEnd"
+            android:textColor="#0d2bc4"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/M2TarriffTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:paddingStart="1dip"
+            android:paddingEnd="1dip"
+            android:paddingTop="6dip"
+            android:textAlignment="center"
+            android:textColor="#0d2bc4"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/m2Tariff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingStart="1dip"
+            android:paddingEnd="1dip"
+            android:paddingTop="6dip"
+            android:textAlignment="viewStart"
+            android:textColor="#770c7f"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/moqTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="1dip"
+            android:paddingEnd="1dip"
+            android:paddingTop="6dip"
+            android:text="@string/minorderqualntity"
+            android:textAlignment="viewEnd"
+            android:textColor="#db17e9"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/moq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:paddingStart="1dip"
+            android:paddingEnd="1dip"
+            android:paddingTop="6dip"
+            android:textAlignment="viewStart"
+            android:textColor="#770c7f"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</LinearLayout>
